@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_role_name">Umpire</string>
+    <string name="app_name">Umpire iPlayOn</string>
+    <string name="app_title">iPlayOn</string>
+    <string name="login">I am already registered on iPlayOn</string>
+    <string name="register">I am new! Please register me</string>
+    <string name="loginRoleHeader">Umpire</string>
+    <string name="loginHeader">Login</string>
+    <string name="registerHeader">Register</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="enterUserName">Enter User Name</string>
+    <string name="enterUserMail">Enter Mail ID</string>
+    <string name="loginUserMailHint">registered mail ID</string>
+    <string name="loginUserPwdHint">password</string>
+    <string name="setNewPassword">Set New Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="verificiationCode">Enter Verificiation Code</string>
+    <string name="enterPhoneNo">Enter Phone Number</string>
+    <string name="enterCity">Enter City</string>
+    <string name="enterPinCode">Enter Pincode</string>
+    <string name="travelAssignment">Willing to travel on assignments</string>
+    <string name="regContinue">Continue</string>
+    <string name="ipAddress">IP Address</string>
+    <string name="slNoHeader">No</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="menus">Menus</string>
+    <string name="ok">OK</string>
+    <string name="home">Home</string>
+    <string name="save">Save</string>
+    <string name="display">Display</string>
+    <string name="no">No</string>
+    <string name="logOut">Logout</string>
+    <string name="close">Close</string>
+    <string name="profileSettings">Profile Settings</string>
+
+    <!-- registration -->
+    <string name="nameHeader">Name</string>
+    <string name="emailHeader">Email</string>
+    <string name="phoneNoHeader">Phone Number</string>
+    <string name="sportHeader">Sport</string>
+    <string name="cityHeader">City</string>
+    <string name="pinCodeHeader">PinCode</string>
+    <string name="stateHeader">State</string>
+    <string name="certficationHeader">Certification</string>
+    <string name="languageHeader">Langauge</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_profile_settings">ProfileSettings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dobHeader">DOB</string>
+    <string name="guardianHeader">Guardian Name</string>
+    <string name="verificationSuccess">We have sent the confirmation code to your email<br> please check your inbox</br></string>
+
+    <string name="copyrights">&#169; 2017, All rights reserved</string>
+    <string name="next">Next</string>
+
+
+    <string-array name="nav_item_activity_titles">
+        <item>Upcoming Tournaments</item>
+        <item>Past Tournaments</item>
+        <item>My Profile</item>
+        <item>Logout</item>
+        <item></item>
+    </string-array>
+
+
+    <string name="nav_upcomingTournaments">Upcoming Tournaments</string>
+    <string name="nav_pastTournaments">Past Tournaments</string>
+    <string name="nav_myProfile">My Profile</string>
+    <string name="nav_logout">Logout</string>
+    <string name="noInternet">No Internet</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

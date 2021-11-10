@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.iplayon.HomeActivity" >
+
+    <item android:id="@+id/profileSettings"
+      android:icon="@drawable/logout_grey"
+      android:title="@string/profileSettings"
+      android:orderInCategory="100"
+      app:showAsAction="ifRoom"/>
+    
+    
+    <item android:id="@+id/logout"
+      android:icon="@drawable/logout_grey"
+      android:title="@string/logOut"
+      android:orderInCategory="100"
+      app:showAsAction="ifRoom"/>
+    
+
+</menu>

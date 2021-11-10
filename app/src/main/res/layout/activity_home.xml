@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+
+
+
+     <ListView
+        android:id="@+id/menu_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:gravity="bottom"
+        android:transcriptMode="alwaysScroll"
+        android:layout_weight="1"
+        android:dividerHeight="1dp"
+        android:divider="@drawable/separator_line"/>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/profileLayout"
+    android:gravity="center|center_vertical|center_horizontal"
+    android:background="@color/white"
+    android:layout_margin="20dp"
+
+
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical|center_horizontal"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:textSize="20sp"
+        android:background="@color/websiteHeader"
+        android:text="Events"
+        android:padding="5dp"
+        android:id="@+id/customTitle"
+        />
+
+    <include
+        layout="@layout/event_info_layout_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ListView
+        android:id="@+id/customListView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+    </ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:textSize="16sp"
+        android:background="@color/textColor"
+        android:text="@string/ok"
+        android:textColor="@color/websiteHeader"
+        android:id="@+id/okButton"
+        android:padding="5dp"
+
+        />
+
+</LinearLayout>
+    <ImageView
+        android:id="@+id/closeDialog"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/profileLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/profileLayout"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/close" />
+    </RelativeLayout>

@@ -1,0 +1,245 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:2:1-129:12
+INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:2:1-129:12
+INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:2:1-129:12
+INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:2:1-129:12
+MERGED from [com.squareup:android-times-square:1.6.5] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/android-times-square-1.6.5.aar/4c3f9cd0bd7ceb01b4d6783252f0260c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:design:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/051d2e1979cdd8a29cdfe9203e4ec737/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/2d49b8612a30bb5b60cad12fcf15594e/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:recyclerview-v7:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.3.0.aar/2cb8842a01601f237f07ec58914258c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/703e7a1235b5b73b756e9da8e88cf0bb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/f75355640da77e9503b7aad270e5d628/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/cf0546b97933474d44714bca2cfae010/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/04bb9bce6dfec61163aedfd6aeb3074d/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:2:1-129:12
+INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:2:1-129:12
+INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:2:1-129:12
+	package
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:4:5-33
+		INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [com.squareup:android-times-square:1.6.5] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/android-times-square-1.6.5.aar/4c3f9cd0bd7ceb01b4d6783252f0260c/AndroidManifest.xml:7:5-43
+MERGED from [com.squareup:android-times-square:1.6.5] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/android-times-square-1.6.5.aar/4c3f9cd0bd7ceb01b4d6783252f0260c/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:design:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/051d2e1979cdd8a29cdfe9203e4ec737/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/051d2e1979cdd8a29cdfe9203e4ec737/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/2d49b8612a30bb5b60cad12fcf15594e/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/2d49b8612a30bb5b60cad12fcf15594e/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.3.0.aar/2cb8842a01601f237f07ec58914258c8/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.3.0.aar/2cb8842a01601f237f07ec58914258c8/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/703e7a1235b5b73b756e9da8e88cf0bb/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/703e7a1235b5b73b756e9da8e88cf0bb/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/f75355640da77e9503b7aad270e5d628/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/f75355640da77e9503b7aad270e5d628/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/cf0546b97933474d44714bca2cfae010/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/cf0546b97933474d44714bca2cfae010/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/04bb9bce6dfec61163aedfd6aeb3074d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/04bb9bce6dfec61163aedfd6aeb3074d/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:8:5-10:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/2d49b8612a30bb5b60cad12fcf15594e/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:15:22-77
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:16:22-77
+supports-screens
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:18:5-22:37
+	android:largeScreens
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:21:9-36
+	android:smallScreens
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:19:9-36
+	android:normalScreens
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:20:9-37
+	android:anyDensity
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:22:9-34
+application
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:24:5-127:19
+MERGED from [com.android.support:design:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/051d2e1979cdd8a29cdfe9203e4ec737/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/051d2e1979cdd8a29cdfe9203e4ec737/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/2d49b8612a30bb5b60cad12fcf15594e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/2d49b8612a30bb5b60cad12fcf15594e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/703e7a1235b5b73b756e9da8e88cf0bb/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/703e7a1235b5b73b756e9da8e88cf0bb/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/f75355640da77e9503b7aad270e5d628/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/f75355640da77e9503b7aad270e5d628/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/cf0546b97933474d44714bca2cfae010/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/cf0546b97933474d44714bca2cfae010/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/04bb9bce6dfec61163aedfd6aeb3074d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/shalinibr/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/04bb9bce6dfec61163aedfd6aeb3074d/AndroidManifest.xml:9:5-20
+	android:screenOrientation
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:29:9-45
+	android:supportsRtl
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:30:9-35
+	android:label
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:27:9-41
+	android:largeHeap
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:28:9-33
+	android:icon
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:26:9-38
+	android:allowBackup
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:31:9-52
+	tools:replace
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:32:9-44
+receiver#com.iplayon.umpire.util.NetworkChangeReceiver
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:36:9-43:20
+	android:label
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:38:13-50
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:37:13-55
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:android.net.wifi.WIFI_STATE_CHANGED
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:39:13-42:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:40:25-76
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:41:17-78
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:41:25-75
+activity#com.iplayon.umpire.activity.SplashActivity
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:45:9-56:20
+	android:screenOrientation
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:49:13-49
+	android:label
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:48:13-45
+	android:icon
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:47:13-46
+	android:theme
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:50:13-47
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:46:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:51:13-55:29
+action#android.intent.action.MAIN
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:52:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:54:27-74
+activity#com.iplayon.umpire.activity.MainActivity
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:70:9-73:53
+	android:screenOrientation
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:72:13-49
+	android:theme
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:73:13-50
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:71:13-50
+activity#com.iplayon.umpire.activity.HomeActivity
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:75:9-83:20
+	android:screenOrientation
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:78:13-45
+	android:windowSoftInputMode
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:81:13-52
+	android:configChanges
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:77:13-74
+	android:theme
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:80:13-56
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:76:13-50
+activity#com.iplayon.umpire.activity.LoginActivity
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:86:9-91:55
+	android:screenOrientation
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:89:13-49
+	android:windowSoftInputMode
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:91:13-52
+	android:configChanges
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:88:13-74
+	android:theme
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:90:13-56
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:87:13-51
+activity#com.iplayon.umpire.activity.Registeration
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:94:9-99:55
+	android:screenOrientation
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:97:13-49
+	android:windowSoftInputMode
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:99:13-52
+	android:configChanges
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:96:13-74
+	android:theme
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:98:13-56
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:95:13-51
+activity#com.iplayon.umpire.LoginActivity1
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:101:9-104:20
+	android:label
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:103:13-46
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:102:13-43
+activity#com.iplayon.umpire.HomeActivity
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:105:9-108:20
+	android:label
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:107:13-46
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:106:13-41
+activity#com.iplayon.umpire.Registration1
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:109:9-112:20
+	android:label
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:111:13-46
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:110:13-42
+activity#com.iplayon.umpire.TournamentDisplay1
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:114:9-115:20
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:114:19-53
+activity#com.iplayon.umpire.ProfileSettings1
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:117:9-120:20
+	android:label
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:119:13-68
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:118:13-45
+activity#com.iplayon.umpire.activity.WelcomeActivity
+ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:122:9-126:15
+	android:screenOrientation
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:124:13-49
+	android:theme
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:125:13-56
+	android:name
+		ADDED from /home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/src/main/AndroidManifest.xml:123:13-53

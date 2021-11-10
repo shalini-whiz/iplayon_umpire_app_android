@@ -1,0 +1,4 @@
+#Mon May 28 15:56:53 IST 2018
+base.0=/home/shalinibr/AndroidProjects/iPlayOn_Umpire/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

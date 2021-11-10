@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_gray">#939393</color><!--   434343-->
+    <color name="hightlightColor">#434343</color>
+    <color name="lightgrey">#F4F4F4</color>
+    <!--<color name="websiteHeader">#FFA500</color>-->
+    <color name="websiteHeader">#128c7e</color> <!-- important ff7200 -->
+    <color name="websiteBackground">#222</color>
+    <color name="evenrow">#D3D3D3</color>
+    <color name="oddrow">#BDBDBD</color>
+    <!-- <color name="headerblue">#00BFFF</color>-->
+    <color name="headerblue">#4099FF</color>  <!--//vinaya blue 4099FF   mine - 0099e5-->
+    <color name="white">#ffffff</color>
+    <color name="tableHeader1">#828282</color>
+    <color name="buttonselected">#d3d3d3</color>
+    <color name="headercolor">#d3d3d3</color>
+    <color name="player1Color">#E74C3C</color><!--  -->
+    <color name="buttonHightlight">#A1A1A1</color>
+    <color name="disabled">#8b8b8b</color>
+    <color name="black">#000000</color>
+    <color name="white_opaque">#FFFFFFFF</color>
+    <color name="headergrey">#999999</color>
+    <color name="opponentColor">#434343</color><!-- #49176d latest 3B5998-->
+    <color name="playerColor">#434343</color> <!-- #537b35  eb5424  latest#954010-->
+
+    <color name="red">#FF0000</color>
+    <color name="activeButton">#004a43</color>
+
+
+    <!-- message -->
+    <color name="textColor">#ffffff</color>
+    <color name="toolBarSeparator">#4f4e4e</color>
+    <color name="menuBackground">#26000000</color>
+    <color name="headerLabelGrey">#4f4e4e</color>
+
+    <color name="opa50white">#80FFFFFF</color>
+    <color name="opa70white">#B3FFFFFF</color>
+    <color name="opa20white">#33FFFFFF</color>
+    <color name="opa80white">#CCFFFFFF</color>
+    <color name="opa5white">#0DFFFFFF</color>
+    <color name="opa10white">#1AFFFFFF</color>
+    <color name="opa15white">#26FFFFFF</color>
+
+
+    <color name="progressBarColor">#004a43</color>
+    <color name="linkColor">#bd0000</color>
+
+
+    <color name="statusBarColor">#004a43</color><!--075e54-->
+    <color name="actionBarColor">#00766a</color> <!--FDA00A-->
+    <color name="iconColor">#004a43</color>
+    <color name="subHeader">#616161</color>
+    <color name="mainHeader">#4f4e4e</color>
+
+    <color name="buttonTextWhite">#ffffff</color>
+
+
+    <color name="dropDownBackground">#66004a43</color>
+    <color name="backgroundGrey">#ededed</color>
+    <color name="labelColor">#BF004a43</color>
+
+
+
+    <color name="tableHeader">#828282</color>
+
+
+    <color name="buttonBack1">#eb5424</color>
+    <color name="buttonBack2">#338d11</color><!--  dark green -->
+    <color name="buttonBack3">#8aaf0d</color>
+    <color name="buttonBack4">#689550</color><!-- courtyard -->
+    <color name="buttonBack">#78a300</color>
+    <color name="lighteroddblue">#ffffff</color> <!-- e6f3f7 -->
+    <color name="lighterevenblue">#B0E2FF</color> <!-- eef7fa a4d3ee-->
+    <color name="buttonColor">#d6ebf2</color>
+    <color name="outlineColor">#0066b2</color>
+
+
+
+    <!--dsf -->
+
+
+
+
+
+
+
+
+</resources>

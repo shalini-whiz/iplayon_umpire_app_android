@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.iplayon_organizer" >
+
+ <item android:id="@+id/close"
+      android:icon="@drawable/logout_grey"
+      android:title="@string/close"
+      android:orderInCategory="100"
+     />
+    
+</menu>

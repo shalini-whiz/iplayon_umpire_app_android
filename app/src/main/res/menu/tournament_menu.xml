@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item  
+        android:id="@+id/subscribeTournament" 
+        android:icon="@drawable/edit_30" 
+        android:title="Subscribe"/>  
+      
+    <item  
+        android:id="@+id/deleteTournament"  
+        android:title="Delete"
+        android:icon="@drawable/delete_30"/>  
+        
+    <item  
+        android:id="@+id/entriesTournament"  
+        android:title="Download Entries"
+        android:icon="@drawable/download_30"/>  
+</menu>
+  
+    
+          

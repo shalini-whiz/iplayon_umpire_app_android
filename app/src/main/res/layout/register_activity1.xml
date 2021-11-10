@@ -1,0 +1,408 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+    
+ 	<TextView
+		android:id="@+id/playerHeader"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/loginRoleHeader"
+	    android:textSize="24sp"
+	    android:textAllCaps="true"
+	    android:layout_gravity="center|center_horizontal"
+	    android:textStyle="bold"
+	    android:layout_marginTop="10dp" />
+    
+    
+	<TextView
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/registerHeader"
+	    android:layout_gravity="center|center_horizontal"
+	    android:layout_marginTop="10dp" />
+	
+	<LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:id="@+id/registerLayout" >   	
+	     <TextView 
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:padding="10dp"
+	         android:layout_marginStart="10dp"  
+	         android:layout_marginLeft="10dp"
+	         android:layout_marginTop="10dp"
+	         android:layout_marginEnd="10dp"  
+	         android:layout_marginRight="10dp"
+	         android:textColor="@android:color/black" 
+	         android:text="@string/enterUserMail" />
+        
+        
+     	<EditText 
+	         android:id="@+id/registerUserMail"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/rounded_edittext"
+	         android:padding="10dp"   
+	         android:layout_marginStart="10dp"  
+	         android:layout_marginLeft="10dp"
+	         android:layout_marginEnd="10dp"  
+	         android:layout_marginRight="10dp"
+	         android:layout_marginTop="20dp"
+	         android:textColor="@android:color/black"/>
+     	
+     	<Button
+	         android:id="@+id/registerContinue"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/button_rounded"
+	         android:padding="5dp"
+	         android:text="@string/regContinue" 
+	         android:layout_marginTop="10dp"
+	         android:layout_gravity="center|center_horizontal"
+	         android:textColor="@android:color/white"/>
+	    
+	</LinearLayout>
+  	
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:id="@+id/registerFormLayout"
+    	android:visibility="gone"
+    	android:padding="10dp"
+    	>
+  
+         <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/nameHeader"
+				android:textColor="@color/disabled"/>
+				
+			 <EditText 
+		         android:id="@+id/registerName"
+		         android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="2"	         
+		         android:background="@drawable/rounded_edittext"
+		         android:padding="10dp"        
+		         android:textColor="@color/hightlightColor"
+		         android:textSize="16sp"
+		         />	               
+	    </LinearLayout>
+	    
+        <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/emailHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			<TextView 
+	         	android:id="@+id/registerMail"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"	         		         
+		        android:padding="10dp"   
+		        android:textColor="@color/hightlightColor"
+		        android:background="@drawable/rounded_edittext"
+		        android:textSize="16sp"
+		        
+	         />
+	    </LinearLayout>
+      
+       <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/phoneNoHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			<EditText 
+	         	android:id="@+id/registerPhoneNumber"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"	         		         
+		        android:padding="10dp"   
+		        android:textColor="@color/hightlightColor"
+		        android:background="@drawable/rounded_edittext"
+	         	android:inputType="number|phone" 
+	         	android:textSize="16sp"
+	         	
+	         />
+	    </LinearLayout>
+         <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp">
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/sportHeader"
+				android:textColor="@color/disabled"/>
+							 		         
+			<Spinner 
+	         	android:id="@+id/registerSport"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"	         		         
+		        android:padding="10dp"   
+		        android:textColor="@color/hightlightColor"
+		        android:textSize="16sp"/>
+			
+	     </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/stateHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			<Spinner 
+	         	android:id="@+id/registerState"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"	         		         
+		        android:padding="10dp"   
+		        android:textColor="@color/hightlightColor"
+		      	android:textSize="16sp"
+		       
+	         />
+	    </LinearLayout>
+
+         
+         
+       
+          
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           
+           >
+           
+           <EditText 
+	         android:id="@+id/registerCity"
+	         android:layout_width="0dp"
+	         android:layout_weight="1"
+	         android:layout_height="wrap_content"
+	         android:padding="10dp" 
+	         android:layout_marginRight="5dp"
+	         android:textColor="@color/hightlightColor"
+	         android:hint="@string/enterCity"
+	         android:background="@drawable/rounded_edittext"
+	         android:textSize="16sp"
+	         
+	         
+	          />
+           
+           <EditText 
+	         android:id="@+id/registerPincode"
+	         android:layout_width="0dp"
+	         android:layout_weight="1"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/rounded_edittext"
+	         android:padding="10dp"
+	         android:hint="@string/enterPinCode"
+	         android:inputType="number"
+	         android:textSize="16sp"
+	         
+	          />
+           
+           
+           
+       </LinearLayout>
+       
+       
+
+       
+       
+       
+       <Button
+	         android:id="@+id/userRegister"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/button_rounded"
+	         android:padding="10dp"
+	         android:text="@string/registerHeader" 
+	         android:layout_marginTop="10dp"
+	         android:layout_gravity="center|center_horizontal|bottom"
+	         android:textColor="@android:color/white"
+	         android:textStyle="bold"
+	         />
+       
+       
+     	
+     	
+
+	</LinearLayout>
+	
+    <!--  
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:id="@+id/registerSubmitLayout"
+    	android:visibility="gone"
+    	android:padding="10dp"
+    	>
+       
+	     
+     	 <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/certficationHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			<ListView
+	         	android:id="@+id/certificationSpinner"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"	         		         
+		        android:padding="10dp"   
+		        android:textColor="@color/hightlightColor"
+		      	android:textSize="16sp"
+		       	android:background="@drawable/rounded_edittext"
+		       
+	         />
+	   </LinearLayout>
+	   
+       <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/languageHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			<ListView
+	         	android:id="@+id/languageSpinner"
+		        android:layout_width="0dp"
+		        android:layout_height="50dp"
+		        android:layout_weight="2"	         		         
+		        android:textColor="@color/hightlightColor"
+		       	android:background="@drawable/rounded_edittext"
+		       
+	         />
+	    </LinearLayout>
+        
+        <CheckBox
+     	    android:id="@+id/travelAssignments"
+     	    android:layout_width="fill_parent"
+     	    android:layout_height="wrap_content"	         
+	        android:textColor="@color/hightlightColor"
+     	    android:text="@string/travelAssignment"
+     	    android:buttonTint="@color/disabled"
+     	     android:textSize="14sp"
+     	    
+     	    />
+        
+        <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+             <Button
+		        android:id="@+id/step1Previous"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"                             
+		        android:layout_gravity="center_horizontal"
+		        android:text="@string/previous"
+		        android:textSize="16sp"
+				android:background="@drawable/button_rounded"
+		        android:textColor="@color/white"
+		        android:textStyle="bold"
+		        />
+		     
+		     <ImageView
+		        android:layout_width="0dp"
+		        android:layout_weight="2"                     
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"/>
+		     
+		      <Button
+		        android:id="@+id/userRegister"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"                             	       
+		        android:layout_gravity="center_horizontal"
+		        android:text="@string/registerHeader"
+		        android:textSize="16sp"
+				android:background="@drawable/button_rounded"
+		        android:textColor="@color/white"
+		        android:textStyle="bold"
+		        />
+		      
+		      
+			
+	    </LinearLayout>
+       
+          
+          
+       
+        
+     	
+     </LinearLayout>
+-->
+</LinearLayout>
+        
+

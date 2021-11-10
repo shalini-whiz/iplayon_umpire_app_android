@@ -1,0 +1,437 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".ProfileSettings1" >
+    
+
+
+    
+
+ 	 <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:padding="5dp" >
+    
+        <TextView 
+            android:id="@+id/tcStep1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Step1"
+            android:gravity="center_horizontal"         
+            android:layout_weight="1"
+            />
+        <TextView 
+            android:id="@+id/tcStep2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"   
+            android:text="Step2"
+            android:layout_weight="1"
+            android:textColor="@color/disabled"
+            />
+        
+        
+    </LinearLayout>
+    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="2dp"
+	        android:background="#c0c0c0" />
+ 	
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:id="@+id/step1Layout"
+    	android:visibility="visible"
+    	android:padding="10dp"
+    	>
+  
+         <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/nameHeader"
+				android:textColor="@color/disabled"/>
+				
+			 <EditText 
+		         android:id="@+id/profileName"
+		         android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="2"	         
+		         android:background="@drawable/rounded_edittext"
+		         android:padding="5dp"        
+		         android:textColor="@color/hightlightColor"
+		         android:textSize="16sp"
+		         />	               
+	    </LinearLayout>
+	     <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/guardianHeader"
+				android:textColor="@color/disabled"/>
+				
+			 <EditText 
+		         android:id="@+id/profileGuardian"
+		         android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="2"	         
+		         android:background="@drawable/rounded_edittext"
+		         android:padding="5dp"        
+		         android:textColor="@color/hightlightColor"
+		         android:textSize="16sp"
+		         />	               
+	    </LinearLayout>
+	    
+        <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/emailHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			<TextView 
+	         	android:id="@+id/profileMail"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"	         		         
+		        android:padding="5dp"   
+		        android:textColor="@color/hightlightColor"
+		        android:background="@drawable/rounded_edittext"
+		        android:textSize="16sp"
+		        
+	         />
+	    </LinearLayout>
+      
+       <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/phoneNoHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			<EditText 
+	         	android:id="@+id/profilePhoneNo"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"	         		         
+		        android:padding="5dp"   
+		        android:textColor="@color/hightlightColor"
+		        android:background="@drawable/rounded_edittext"
+	         	android:inputType="number|phone" 
+	         	android:textSize="16sp"
+	         	
+	         />
+	    </LinearLayout>
+        
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/dobHeader"
+				android:textColor="@color/disabled"/>
+				
+			 <EditText 
+		         android:id="@+id/profileDOB"
+		         android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="2"	         
+		         android:background="@drawable/rounded_edittext"
+		         android:padding="5dp"        
+		         android:textColor="@color/hightlightColor"
+		         android:textSize="16sp"
+		         />	               
+	    </LinearLayout>
+
+         
+          <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/cityHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			
+			<EditText 
+	         	android:id="@+id/profileCity"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"	         		         
+		        android:padding="5dp"   
+		        android:textColor="@color/hightlightColor"
+		        android:background="@drawable/rounded_edittext"
+	         	android:textSize="16sp"
+	         	
+	         />
+	    </LinearLayout>
+	    
+          <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/stateHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			<Spinner 
+	         	android:id="@+id/profileState"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"	         		         
+		        android:padding="5dp"   
+		        android:textColor="@color/hightlightColor"
+		      	android:textSize="16sp"
+		       
+	         />
+	    </LinearLayout>
+	    
+         <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+			<TextView
+		    	android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+				android:text="@string/pinCodeHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			
+			  
+			  <EditText 
+	         	android:id="@+id/profilePinCode"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"	         		         
+		        android:padding="5dp"   
+		        android:textColor="@color/hightlightColor"
+		        android:background="@drawable/rounded_edittext"
+	         	android:inputType="number" 
+	         	android:textSize="16sp"
+	         	
+	         />
+	    </LinearLayout>
+          
+     
+       
+ 		<Button
+	         android:id="@+id/profileContinue"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/button_rounded"
+	         android:padding="10dp"
+	         android:text="@string/regContinue" 
+	         android:layout_marginTop="10dp"
+	         android:layout_gravity="center|center_horizontal|bottom"
+	         android:textColor="@android:color/white"
+	         />
+       
+       
+       
+   
+       
+     	
+     	
+
+	</LinearLayout>
+	
+    
+	<LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:id="@+id/step2Layout"
+    	android:visibility="gone"
+    	android:padding="10dp"
+    	>
+       
+	    
+	     
+	    
+	    
+			<TextView
+		    	android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+				android:text="@string/sportHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			<ListView
+	         	android:id="@+id/profileSport"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="2"	         		         
+		        android:padding="10dp"   
+		        android:textColor="@color/hightlightColor"
+		      	android:textSize="16sp"
+		      	android:background="@drawable/rounded_edittext"
+		      	
+		       
+	         />
+	   
+	      
+	    
+			<TextView
+		    	android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+				android:text="@string/certficationHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			<ListView
+	         	android:id="@+id/profileCertification"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="2"	         		         
+		        android:padding="10dp"   
+		        android:textColor="@color/hightlightColor"
+		      	android:textSize="16sp"
+		       	android:background="@drawable/rounded_edittext"
+		       
+	         />
+	   
+      
+	    
+			<TextView
+		    	android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+				android:text="@string/languageHeader"
+				android:textColor="@color/disabled"
+			/>
+							 		         
+			<ListView
+	         	android:id="@+id/profileLanguage"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="2"	         		         
+		        android:textColor="@color/hightlightColor"
+		       	android:background="@drawable/rounded_edittext"
+		       
+	         />
+	    <CheckBox
+     	    android:id="@+id/travelAssignment"
+     	    android:layout_width="fill_parent"
+     	    android:layout_height="wrap_content"	         
+	        android:textColor="@color/hightlightColor"
+     	    android:text="@string/travelAssignment"
+     	    android:buttonTint="@color/disabled"
+     	    android:textSize="14sp" />
+	    
+	    
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        >
+	    
+             <Button
+		        android:id="@+id/step1Previous"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"                             
+		        android:layout_gravity="center_horizontal"
+		        android:text="@string/previous"
+		        android:textSize="16sp"
+				android:background="@drawable/button_rounded"
+		        android:textColor="@color/white"
+		        android:textStyle="bold"
+		        />
+		     
+		     
+		     
+		      <Button
+		        android:id="@+id/profileUpdate"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"                             	       
+		        android:layout_gravity="center_horizontal"
+		        android:text="@string/save"
+		        android:textSize="16sp"
+				android:background="@drawable/button_rounded"
+		        android:textColor="@color/white"
+		        android:textStyle="bold"
+		        />
+		     
+		      <Button
+		        android:id="@+id/profileCancel"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"                             	       
+		        android:layout_gravity="center_horizontal"
+		        android:text="@string/cancel"
+		        android:textSize="16sp"
+				android:background="@drawable/button_rounded"
+		        android:textColor="@color/white"
+		        android:textStyle="bold"
+		        />
+		      
+		      
+			
+	    </LinearLayout>
+	    
+	</LinearLayout>
+   
+</LinearLayout>
+        
+
